@@ -1,0 +1,11 @@
+/*Manipulando os espaçamento interno com a propriedade padding*/
+
+p{
+    margin: 30px;
+    padding: 20px 9px;
+    background-color: aqua;
+}
+
+
+
+

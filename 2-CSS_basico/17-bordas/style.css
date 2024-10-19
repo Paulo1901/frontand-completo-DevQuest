@@ -1,0 +1,20 @@
+p{
+    margin: 30px;
+    padding: 20px;
+    background-color: aquamarine;
+    /* border: 1px solid red ; */
+    /* border-style: solid;
+    border-width: 10px;
+    border-color: red; */
+    border: 3px solid blueviolet;
+}
+
+h1{
+    border-style: solid;
+    border-width: 10px;
+    /* border-top-color: yellowgreen;
+    border-left-color: green;
+    border-bottom-color: red;
+    border-right-color: purple; */
+    border-color: yellow green purple red;
+}

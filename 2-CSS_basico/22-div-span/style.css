@@ -1,0 +1,26 @@
+.produto {
+    width: 500px;
+    background-color: aqua;
+    display: inline-block;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.produtos h2 {
+    color: white;
+    font-weight: normal;
+    
+}
+
+.produto p {
+    font-size: 19px;
+    color: purple;
+    padding: 27px;
+}
+
+.produto span {
+    font: 35px;
+    color: red;
+    font-weight: bolder;
+}
+
