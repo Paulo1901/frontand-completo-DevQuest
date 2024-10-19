@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.moda {
+    width: 300px;
+    height: 100px;
+}
+
+.cabeca_moda{
+    background-color: #BB86FC;
+    font-weight: bolder;
+    color: #ffffff;
+    font: 22px;
+    text-align: center;
+}
+
+.corpo_prod {
+    background-color: #424250;
+    font-size: 19;
+    color: #ffffff;
+    text-align: center;
+}
+
+.casa {
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+}
+
+.cabeca_casa {
+    background-color: #00C4B4;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.corpo_casa {
+    font: 19px;
+    background-color: #424250;
+    font-size: 19px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
+}
