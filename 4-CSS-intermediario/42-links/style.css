@@ -1,0 +1,17 @@
+a {
+    cursor: progress; /* alterando o ponteiro da iconi*/
+    margin: 20px;
+    padding: 10px;
+}
+
+a:visited {
+    color: orange; /*Quando visitada coloca a cor pós clique no elemento*/
+}
+
+a:active {
+    color: red; /*Quando voce clica e segura o elemnto ele altera seu status*/
+}
+
+a:hover {
+    background-color: #069; /*Qunado passaos o mouse em cima ele é modificado*/
+}
