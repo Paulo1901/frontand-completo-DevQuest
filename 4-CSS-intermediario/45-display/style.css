@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 24px;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+/*Para elementos que são por padrão bloco cada linha é preenchida com elemento*/
+.em-bloco li{
+    background: aqua;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+/*Para elementos com são inline não se consegue alterar o largura ou altura deles, assim como mostrado no exemplo*/
+.em-linha li{
+    display: inline;
+    background: aqua;
+    width: 500px;
+}
+
+/*Elementos são alterados largura e altura e coloca os elementos um do lado do outr*/
+.em-linha-e-bloco li {
+    display: inline-block;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+/*Elementos fica escondidos*/
+.esconder {
+    display: none;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
