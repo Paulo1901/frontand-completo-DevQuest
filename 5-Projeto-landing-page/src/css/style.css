@@ -1,6 +1,11 @@
+html{
+    font-size: 62.5%;
+}
+
 bodu {
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 1.6rem;
 }
 
 .cabecalho {
@@ -98,13 +103,13 @@ bodu {
 .ladrilho .pequeno.grao {
     background: url(../images/2.jpg) center center no-repeat;
     height: 300px;
-    width: 25%;
+    width: 20%;
 }
 
 .ladrilho .medio {
     background: url(../images/1.jpg) center center no-repeat;
     height: 300px;
-    width: 50%;
+    width: 45%;
 }
 
 .contato {
