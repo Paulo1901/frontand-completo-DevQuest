@@ -1,0 +1,50 @@
+/*Resetando as proprioedades padrões*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilizado o paragrafo*/
+p {
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Deixando por padrão o background-image*/
+.back {
+    background-image: url(../images/cat.png);
+    background-color: chartreuse;
+}
+
+/*Background-images normal na tela*/
+.back-image {
+    width: 513px;
+    height: 340px;
+}
+
+/*Background-repeat para não repetir a imagem*/
+.back-repeat {
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+/*Background para cobrir as imagens*/
+.back-cover {
+    background-size: cover;
+    height: 450px;
+}
+
+/*Background-fixed essa propriedade deixa o elemento fixo na tela*/
+.back-fixed {
+    background-attachment: fixed; /*Propriedade para deixar fixo na tela*/
+    height: 900px;
+    background-size: cover;
+}
+
+/*Propriedade para simplificar para manipular os elementos na tela*/
+.back-position {
+    height: 450px;
+    background: yellow url(../images/cat.png) no-repeat center top;
+}
