@@ -1,0 +1,24 @@
+.first-latter::first-letter{
+    color: blueviolet;
+}
+
+.first-line::first-line{
+    color: coral;
+}
+
+.first-line::first-letter{
+    color: green;
+}
+
+li::marker{
+    color: red;
+    font-size: 39px;
+}
+
+.before::before{
+    content: url(../logo.jpg);
+}
+
+.after::after{
+    content: url(../logo.jpg);
+}
